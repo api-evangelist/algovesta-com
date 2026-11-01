@@ -1,4 +1,4 @@
-# algovesta-com
+# AlgoVesta
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-algovesta-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://algovesta.com/
+AlgoVesta is a BYOS (Bring Your Own Signal) crypto & forex signal execution/automation SaaS that routes Telegram and TradingView signals to 16 crypto exchanges and MetaTrader 5, available in 13 languages. Pure technical middleware — no financial advice.
+
+**Areas:** FinTech · Trading · Automation · Crypto · SaaS
+
+## AlgoVesta on APIs.io
+
+Everything profiled for AlgoVesta is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/algovesta-com/](https://apis.io/providers/algovesta-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AlgoVesta API](https://apis.io/apis/algovesta-com/algovesta-api/) — API for AlgoVesta services, providing endpoints for analytics, webhooks and trading automation.
+- [AlgoVesta API](https://apis.io/apis/algovesta-com/algovesta-com-api/) — AlgoVesta API as documented publicly: 22 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetApiMcpReceiptsReceiptidVerifyResponse](https://apis.io/schemas/algovesta-com/algovesta-com-get-api-mcp-receipts-receiptid-verify-response/)
+- [PostApiMcpPoliciesCompileRequest](https://apis.io/schemas/algovesta-com/algovesta-com-post-api-mcp-policies-compile-request/)
+- [PostExchangeOrderRequest](https://apis.io/schemas/algovesta-com/algovesta-com-post-exchange-order-request/)
+- [PostWebhookYourtokenRequest](https://apis.io/schemas/algovesta-com/algovesta-com-post-webhook-yourtoken-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Algovesta Com Context](https://apis.io/jsonld/algovesta-com/algovesta-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AlgoVesta API Rules](https://apis.io/rules/algovesta-com/algovesta-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Algovesta Com Authentication](https://apis.io/security/algovesta-com/algovesta-com-authentication/)
+- [Algovesta Com Domain Security](https://apis.io/security/algovesta-com/algovesta-com-domain-security/)
+- [Algovesta Com Vulnerability Disclosure](https://apis.io/security/algovesta-com/algovesta-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Algovesta Com Scopes](https://apis.io/scopes/algovesta-com/algovesta-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Algovesta Com Plans Pricing](https://apis.io/plans/algovesta-com/algovesta-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Algovesta Com Rate Limits](https://apis.io/rate-limits/algovesta-com/algovesta-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://algovesta.com/)
+- [Getting started](https://algovesta.com/mcp-trading-server.html)
+- [Pricing](https://algovesta.com/pricing.html)
+- [Sign up](https://algovesta.com/register.html)
+- [Support](https://algovesta.com/help/)
+- [Blog](https://algovesta.com/blog/)
+- [Security](https://algovesta.com/security.html#disclosure)
+- [Terms of service](https://algovesta.com/terms-of-service.html)
+- [GitHub](https://github.com/AlgoVesta)
+
+## API Evangelist rating
+
+**Kin Score 51.2** — developing · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 62.6 |
+
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 39.8** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/algovesta-com/](https://apis.io/providers/algovesta-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AlgoVesta: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/algovesta-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
